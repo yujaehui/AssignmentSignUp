@@ -1,5 +1,5 @@
 //
-//  LoginViewModel.swift
+//  NicknameViewModel.swift
 //  AssignmentLogin
 //
 //  Created by Jaehui Yu on 2/22/24.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-class LoginViewModel {
+class NicknameViewModel {
     
     // MARK: - 오로지 함수
 //    func validation(_ input: String?) -> String {

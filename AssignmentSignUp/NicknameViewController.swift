@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  NicknameViewController.swift
 //  AssignmentLogin
 //
 //  Created by Jaehui Yu on 2/22/24.
@@ -8,11 +8,11 @@
 import UIKit
 import SnapKit
 
-class LoginViewController: UIViewController {
+class NicknameViewController: UIViewController {
     let nicknameTextField = UITextField()
     let nicknameStateLabel = UILabel()
     
-    let viewModel = LoginViewModel()
+    let viewModel = NicknameViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
