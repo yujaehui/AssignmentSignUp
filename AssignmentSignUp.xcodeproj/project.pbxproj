@@ -18,6 +18,8 @@
 		0918F8912B876D1D00148EF8 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 0918F8902B876D1D00148EF8 /* SnapKit-Dynamic */; };
 		0918F8932B876F0500148EF8 /* NicknameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918F8922B876F0500148EF8 /* NicknameViewModel.swift */; };
 		0918F8952B876F3800148EF8 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918F8942B876F3800148EF8 /* Observable.swift */; };
+		09A91C162B8B1AF6005755C1 /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A91C152B8B1AF6005755C1 /* PhoneNumberViewController.swift */; };
+		09A91C182B8B1BAD005755C1 /* PhoneNumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A91C172B8B1BAD005755C1 /* PhoneNumberViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		0918F88B2B876CFD00148EF8 /* NicknameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController.swift; sourceTree = "<group>"; };
 		0918F8922B876F0500148EF8 /* NicknameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewModel.swift; sourceTree = "<group>"; };
 		0918F8942B876F3800148EF8 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		09A91C152B8B1AF6005755C1 /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
+		09A91C172B8B1BAD005755C1 /* PhoneNumberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +78,9 @@
 				0918F8822B876CE900148EF8 /* LaunchScreen.storyboard */,
 				0918F8852B876CE900148EF8 /* Info.plist */,
 				0918F88B2B876CFD00148EF8 /* NicknameViewController.swift */,
+				09A91C152B8B1AF6005755C1 /* PhoneNumberViewController.swift */,
 				0918F8922B876F0500148EF8 /* NicknameViewModel.swift */,
+				09A91C172B8B1BAD005755C1 /* PhoneNumberViewModel.swift */,
 				0918F8942B876F3800148EF8 /* Observable.swift */,
 			);
 			path = AssignmentSignUp;
@@ -162,6 +168,8 @@
 				0918F87C2B876CE800148EF8 /* ViewController.swift in Sources */,
 				0918F8782B876CE800148EF8 /* AppDelegate.swift in Sources */,
 				0918F8932B876F0500148EF8 /* NicknameViewModel.swift in Sources */,
+				09A91C182B8B1BAD005755C1 /* PhoneNumberViewModel.swift in Sources */,
+				09A91C162B8B1AF6005755C1 /* PhoneNumberViewController.swift in Sources */,
 				0918F8952B876F3800148EF8 /* Observable.swift in Sources */,
 				0918F87A2B876CE800148EF8 /* SceneDelegate.swift in Sources */,
 			);

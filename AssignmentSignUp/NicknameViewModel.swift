@@ -58,7 +58,6 @@ class NicknameViewModel {
         // closure는 private이기 때문에 바로 접근 불가능
         
         // 3.
-        // Observable에 있는 클로저가 어떤 친구인지 알려주는 곳
         input.bind { text in // 정의
             print(text)
             self.validation(text)
@@ -66,9 +65,6 @@ class NicknameViewModel {
             // 그 매개변수를 validation 메서드에 inputText자리에 넣어주고 validation 메서드를 실행
             // 이 내용 자체가 bind의 매개변수로 가는 것 !
         }
-        
-        // 현재 클로저가 private이기 때문에 bind를 통하는 것을 알겠음
-        // 근데 왜 closure에 바로 접근하지 않고 이렇게 접근하는 걸까..
     }
     
     private func validation(_ inputText: String) { // (String) -> Void
