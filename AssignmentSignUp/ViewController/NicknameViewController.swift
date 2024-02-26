@@ -66,7 +66,7 @@ class NicknameViewController: UIViewController {
         // 뷰모델의 인풋이라는 변수가 있을건데
         // 그 인풋이라는 변수의 타입은 Observable Class
         // 그리고 Observable내에서는 text라는 변수가 있음. 이곳이 최종 목적지
-        viewModel.input.text = nicknameTextField.text!
+        viewModel.input.value = nicknameTextField.text!
         
     }
     

@@ -41,7 +41,7 @@ class PhoneNumberViewController: UIViewController {
     }
     
     @objc func phoneNumberChanged() {
-        viewModel.input.text = phoneNumberTextField.text!
+        viewModel.input.value = phoneNumberTextField.text!
     }
     
     func configureConstraints() {

@@ -12,11 +12,11 @@ class Observable<T> {
     
     // 2.
     // 뷰컨트롤러에 있던 텍스트필드의 텍스트가 변할 때마다 해당 텍스트가 들어오는 곳이 바로 이 곳
-    var text: T {
+    var value: T {
         didSet {
             print("closure를 실행합니다")
             // 텍스트가 변할 때마다 텍스트를 매개변수로 하여금 listener 실행
-            listener?(text) // 호출
+            listener?(value) // 호출
             // 그렇다면 이 listener는 무엇일까?
             // input에 대한 listener는 뷰모델에 있고, output에 대한 listener는 뷰컨트롤러에 있음
         }
@@ -29,8 +29,8 @@ class Observable<T> {
     // 즉 closure에 접근하게 되면 가장 초기값은 어떻게 해줄 수가 없음 ㅜㅜ
     // 그래서 bind내에 closure(text)를 이용해서 bind가 작성되는 시점에도 실행되도록 해서 초기값도 처리할 수 있도록 함!
     
-    init(text: T) {
-        self.text = text
+    init(_ value: T) {
+        self.value = value
     }
     
     // 4.
@@ -38,7 +38,7 @@ class Observable<T> {
     // 그 클로저는 현재 Observable 내의 listener에 넣어줄 것임...
     func bind(_ closure: @escaping (T) -> Void) {
         print(#function)
-        closure(text) // 값이 변하지 않아도 작성되는 시점에 바로 실행될 수 있게끔
+        closure(value) // 값이 변하지 않아도 작성되는 시점에 바로 실행될 수 있게끔
         self.listener = closure // 외부에서 받아온 클로저를 해당 클래스 내의 클로저에 넣어줌
     }
 }

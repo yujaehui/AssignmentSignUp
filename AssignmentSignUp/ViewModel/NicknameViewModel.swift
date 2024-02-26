@@ -46,9 +46,9 @@ class NicknameViewModel {
 //    }
     
     // MARK: - Observable
-    var input = Observable(text: "")
+    var input = Observable("")
     
-    var output = Observable(text: "")
+    var output = Observable("")
 
     init() {
 //        input.closure { text in // 정의
@@ -69,13 +69,13 @@ class NicknameViewModel {
     
     private func validation(_ inputText: String) { // (String) -> Void
         if inputText.isEmpty {
-            output.text = "별명을 입력해주세요"
+            output.value = "별명을 입력해주세요"
         } else if inputText.contains(" ") {
-            output.text = "별명에 공백은 입력할 수 없어요"
+            output.value = "별명에 공백은 입력할 수 없어요"
         } else if inputText.count < 2 || inputText.count > 10 {
-            output.text = "별명은 2글자에서 10글자 사이로 입력해주세요"
+            output.value = "별명은 2글자에서 10글자 사이로 입력해주세요"
         } else {
-            output.text = "이 별명은 사용이 가능해요"
+            output.value = "이 별명은 사용이 가능해요"
         }
     }
 }
