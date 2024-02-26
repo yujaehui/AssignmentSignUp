@@ -18,6 +18,7 @@
 		0918F8912B876D1D00148EF8 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 0918F8902B876D1D00148EF8 /* SnapKit-Dynamic */; };
 		0918F8932B876F0500148EF8 /* NicknameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918F8922B876F0500148EF8 /* NicknameViewModel.swift */; };
 		0918F8952B876F3800148EF8 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918F8942B876F3800148EF8 /* Observable.swift */; };
+		097F1E2B2B8CBA8300436387 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 097F1E2A2B8CBA8300436387 /* .gitignore */; };
 		09A91C162B8B1AF6005755C1 /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A91C152B8B1AF6005755C1 /* PhoneNumberViewController.swift */; };
 		09A91C182B8B1BAD005755C1 /* PhoneNumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A91C172B8B1BAD005755C1 /* PhoneNumberViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		0918F88B2B876CFD00148EF8 /* NicknameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController.swift; sourceTree = "<group>"; };
 		0918F8922B876F0500148EF8 /* NicknameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewModel.swift; sourceTree = "<group>"; };
 		0918F8942B876F3800148EF8 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		097F1E2A2B8CBA8300436387 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		09A91C152B8B1AF6005755C1 /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
 		09A91C172B8B1BAD005755C1 /* PhoneNumberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +56,7 @@
 		0918F86B2B876CE800148EF8 = {
 			isa = PBXGroup;
 			children = (
+				097F1E2A2B8CBA8300436387 /* .gitignore */,
 				0918F8762B876CE800148EF8 /* AssignmentSignUp */,
 				0918F8752B876CE800148EF8 /* Products */,
 			);
@@ -77,13 +80,37 @@
 				0918F8802B876CE900148EF8 /* Assets.xcassets */,
 				0918F8822B876CE900148EF8 /* LaunchScreen.storyboard */,
 				0918F8852B876CE900148EF8 /* Info.plist */,
-				0918F88B2B876CFD00148EF8 /* NicknameViewController.swift */,
-				09A91C152B8B1AF6005755C1 /* PhoneNumberViewController.swift */,
-				0918F8922B876F0500148EF8 /* NicknameViewModel.swift */,
-				09A91C172B8B1BAD005755C1 /* PhoneNumberViewModel.swift */,
-				0918F8942B876F3800148EF8 /* Observable.swift */,
+				097F1E272B8CB7CF00436387 /* ViewController */,
+				097F1E262B8CB7C600436387 /* ViewModel */,
+				097F1E252B8CB7BC00436387 /* Model */,
 			);
 			path = AssignmentSignUp;
+			sourceTree = "<group>";
+		};
+		097F1E252B8CB7BC00436387 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		097F1E262B8CB7C600436387 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0918F8942B876F3800148EF8 /* Observable.swift */,
+				0918F8922B876F0500148EF8 /* NicknameViewModel.swift */,
+				09A91C172B8B1BAD005755C1 /* PhoneNumberViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		097F1E272B8CB7CF00436387 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				09A91C152B8B1AF6005755C1 /* PhoneNumberViewController.swift */,
+				0918F88B2B876CFD00148EF8 /* NicknameViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				097F1E2B2B8CBA8300436387 /* .gitignore in Resources */,
 				0918F8842B876CE900148EF8 /* LaunchScreen.storyboard in Resources */,
 				0918F8812B876CE900148EF8 /* Assets.xcassets in Resources */,
 				0918F87F2B876CE800148EF8 /* Main.storyboard in Resources */,
